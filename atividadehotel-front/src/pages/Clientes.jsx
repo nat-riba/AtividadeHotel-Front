@@ -10,7 +10,6 @@ function Clientes() {
 
   function carregarClientes() {
     getClientes().then((dados) => {
-      //console.log(dados);
       setClientes(dados);
     });
   }

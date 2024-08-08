@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import Clientes from "./pages/Clientes";
 import NovoCliente from "./pages/NovoCliente";
 import EditarCliente from "./pages/EditarCliente";
+import Reserva from "./pages/Reservas";
+import Quarto from "./pages/Quartos";
+import Pagamentos from "./pages/Pagamentos";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
           <Route path="/clientes" element={<Clientes />} />
           <Route path="/clientes/novo" element={<NovoCliente />} />
           <Route path="/clientes/editar/:id" element={<EditarCliente />} />
+          <Route path="/reserva" element={<Reserva />} />
+          <Route path="/quartos" element={<Quarto />} />
+          <Route path="/pagamentos" element={<Pagamentos />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="bottom-right" />
