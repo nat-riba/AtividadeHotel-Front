@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "axios": "^1.7.3",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.5",
+    "joi": "^17.13.3",
+    "mongoose": "^8.5.2",
+    "mysql2": "^3.11.0",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.2",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.26.0",
+    "sequelize": "^6.37.3"
+  },
+  "name": "atividadehotel-front",
+  "private":true,
+  "version": "1.0.0",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "vite": "^5.4.0"
+  },
+  "description": ""
+}
