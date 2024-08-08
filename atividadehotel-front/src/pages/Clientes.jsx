@@ -1,8 +1,8 @@
 import { Button, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { deleteCliente, getClientes } from "../api/clientes";
+import { deleteCliente, getClientes } from "./../api/clientes";
 import { useEffect, useState } from "react";
-import Loader from "../components/Loader";
+import Loader from "../../components/Loader";
 import toast from "react-hot-toast";
 
 function Clientes() {
