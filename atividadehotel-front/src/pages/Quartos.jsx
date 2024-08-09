@@ -48,7 +48,11 @@ function Quartos() {
                   <td>{quarto.preco}</td>
                   <td>{quarto.situacao}</td>
                   <td>
+<<<<<<< HEAD
                     <Button color="red" size="sm" as={Link} to={`/reserva`}>Reservar</Button>
+=======
+                    {quarto.situacao === "disponível"? <Button variant="black" size="sm" as={Link} to={`/reserva`}>Reservar</Button> : <Button variant="black" size="sm">Indisponível</Button>}
+>>>>>>> 76dc516b3a0db13832d397a80136be58e2e7eb8c
                   </td>
                 </tr>
               );
