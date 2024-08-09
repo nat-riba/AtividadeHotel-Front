@@ -26,14 +26,10 @@ function App() {
           <Route path="/quartos" element={<Quarto />} />
           <Route path="/pagamentos" element={<Pagamentos />} />
         </Routes>
-        
-      </BrowserRouter>   
+      </BrowserRouter>
       <Toaster position="bottom-right" />
-    
     </>
-    
   );
-
 }
 
 export default App;

@@ -2,7 +2,9 @@ import { Button } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { addReserva } from "../api/reserva";
+import { getClientes } from "./../api/clientes";
 import toast from "react-hot-toast";
+import { useEffect, useState } from "react";
 
 
 function AdicionarReserva() {
@@ -24,7 +26,19 @@ function AdicionarReserva() {
       toast.error(err.response.data.message);
     });
   }
+
+  const [clientes, setClientes] = useState([]);
   
+    function carregarClientes() {
+      getClientes().then((dados) => {
+        setClientes(dados);
+      });
+    }
+
+    useEffect(() => {
+      carregarClientes();
+  }, []);
+    
 
   return (
     <main className="mt-4 container">
