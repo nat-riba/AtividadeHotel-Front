@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { getQuartos } from "./../api/quartos";
 import { useEffect, useState } from "react";
 import Loader from "../../components/Loader";
-import toast from "react-hot-toast";
 
 function Quartos() {
   const [quartos, setQuartos] = useState(null);
@@ -48,11 +47,7 @@ function Quartos() {
                   <td>{quarto.preco}</td>
                   <td>{quarto.situacao}</td>
                   <td>
-<<<<<<< HEAD
-                    <Button color="red" size="sm" as={Link} to={`/reserva`}>Reservar</Button>
-=======
                     {quarto.situacao === "disponível"? <Button variant="black" size="sm" as={Link} to={`/reserva`}>Reservar</Button> : <Button variant="black" size="sm">Indisponível</Button>}
->>>>>>> 76dc516b3a0db13832d397a80136be58e2e7eb8c
                   </td>
                 </tr>
               );
