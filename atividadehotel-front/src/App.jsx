@@ -8,6 +8,7 @@ import EditarCliente from "./pages/EditarCliente";
 import Reserva from "./pages/Reservas";
 import Quarto from "./pages/Quartos";
 import Pagamentos from "./pages/Pagamentos";
+import AdicionarReserva from "./pages/AdicionarReservas";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path="/clientes/novo" element={<NovoCliente />} />
           <Route path="/clientes/editar/:id" element={<EditarCliente />} />
           <Route path="/reserva" element={<Reserva />} />
-          <Route path="/reserva/novo" element={<AdicionarReservas />}/>
+          <Route path="/reserva/novo" element={<AdicionarReserva />}/>
           <Route path="/quartos" element={<Quarto />} />
           <Route path="/pagamentos" element={<Pagamentos />} />
         </Routes>
