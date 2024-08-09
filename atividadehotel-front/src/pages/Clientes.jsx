@@ -54,8 +54,8 @@ function Clientes() {
                   <td>{cliente.email}</td>
                   <td>{cliente.telefone}</td>
                   <td>
-                    <Button variant="danger" size="sm" onClick={() => deletarCliente(cliente.id)}>Excluir</Button>
-                    <Button size="sm" as={Link} to={`/clientes/editar/${cliente.id}`}>Editar</Button>
+                    <Button variant="black" size="sm" onClick={() => deletarCliente(cliente.id)}>Excluir</Button>
+                    <Button variant="black" size="sm" as={Link} to={`/clientes/editar/${cliente.id}`}>Editar</Button>
                   </td>
                 </tr>
               );
