@@ -9,6 +9,7 @@ function Header() {
           <img src={logo} alt="logohotel" /> 
         </Link>
         <div className="d-flex gap-5">
+          <Link to="/">Home</Link>
           <Link to="/quartos">Quartos</Link>
           <Link to="/reserva">Reservas</Link>
           <Link to="/clientes">Clientes</Link>

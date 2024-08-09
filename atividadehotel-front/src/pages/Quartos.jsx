@@ -34,7 +34,7 @@ function Quartos() {
             <tr>
               <th>Tipo</th>
               <th>Descrição</th>
-              <th>Preço</th>
+              <th>Preço(diária)</th>
               <th>Situação</th>
             </tr>
           </thead>
@@ -58,9 +58,7 @@ function Quartos() {
         <Loader />
       )}
 
-        <footer>
-      <p>&copy; 2024 Hotel. Todos os direitos reservados.</p>
-    </footer>
+   
         </main>
         
   );
