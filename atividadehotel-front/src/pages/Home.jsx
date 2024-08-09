@@ -1,14 +1,16 @@
+
+import Footer from "../../components/Footer";
 function Home() {
 
   return (
+    
     <main>
+      <h1 class="titulo">Soulcode Hotel</h1>
       <div>
+        
         <img src="banner-home.png" alt="Hotel Banner" className="w-100" />
       </div>
-
-      <footer>
-      <p>&copy; 2024 Hotel. Todos os direitos reservados.</p>
-    </footer>
+<Footer />
         </main>
         
   );
