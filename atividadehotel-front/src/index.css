@@ -17,3 +17,22 @@
 .header nav a:hover {
     color: #ded7d1;
 }
+
+
+footer {
+    background-color: #080f11;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;  
+    height: 100%; 
+}
+
+.titulo {
+    color: #a69e69;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+
+    }
