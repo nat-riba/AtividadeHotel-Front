@@ -8,6 +8,7 @@ import EditarCliente from "./pages/EditarCliente";
 import Reserva from "./pages/Reservas";
 import Quarto from "./pages/Quartos";
 import Pagamentos from "./pages/Pagamentos";
+import AdicionarReserva from "./pages/AdicionarReservas";
 
 function App() {
   return (
@@ -21,9 +22,13 @@ function App() {
           <Route path="/clientes/editar/:id" element={<EditarCliente />} />
           <Route path="/reserva" element={<Reserva />} />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
           <Route path="/reserva/novo" element={<AdicionarReservas />}/>
 >>>>>>> 7474d3e77d43e088dc33bd64aa3667eb23a6190e
+=======
+          <Route path="/reserva/novo" element={<AdicionarReserva />}/>
+>>>>>>> 2c51846c74aabaf3fea36b2aaaf1054672236e57
           <Route path="/quartos" element={<Quarto />} />
           <Route path="/pagamentos" element={<Pagamentos />} />
         </Routes>
