@@ -46,8 +46,8 @@ function Quartos() {
                   <td>{quarto.descricao}</td>
                   <td>{quarto.preco}</td>
                   <td>{quarto.situacao}</td>
-                  <td>
-                    {quarto.situacao === "disponível"? <Button variant="black" size="sm" as={Link} to={`/reserva`}>Reservar</Button> : <Button variant="black" size="sm">Indisponível</Button>}
+                  <td className="d-flex flex-column gap-2">
+                    {quarto.situacao === "disponível"? <Button className="dark" variant="dark" size="sm" as={Link} to={`/reserva`}>Reservar</Button> : <Button className="danger" variant="danger" size="sm">Indisponível</Button>}
                   </td>
                 </tr>
               );
