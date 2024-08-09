@@ -9,6 +9,7 @@ import Reserva from "./pages/Reservas";
 import Quarto from "./pages/Quartos";
 import Pagamentos from "./pages/Pagamentos";
 import AdicionarReserva from "./pages/AdicionarReservas";
+// teste teste testando
 
 function App() {
   return (
