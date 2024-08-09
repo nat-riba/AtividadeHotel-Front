@@ -22,7 +22,6 @@ function App() {
           <Route path="/clientes/novo" element={<NovoCliente />} />
           <Route path="/clientes/editar/:id" element={<EditarCliente />} />
           <Route path="/reserva" element={<Reserva />} />
-          <Route path="/reserva/novo" element={<AdicionarReservas />}/>=
           <Route path="/reserva/novo" element={<AdicionarReserva />}/>
           <Route path="/quartos" element={<Quarto />} />
           <Route path="/pagamentos" element={<Pagamentos />} />
