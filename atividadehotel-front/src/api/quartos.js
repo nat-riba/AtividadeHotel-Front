@@ -3,12 +3,10 @@ import axios from "axios";
 
 export async function getQuartos() {
     const response = await axios.get("http://localhost:3000/quartos");
-  
     return response.data;
 }
 
 export async function addQuarto(data) {
-
     const response = await axios.post("http://localhost:3000/quartos", data);
     return response.data;
 }

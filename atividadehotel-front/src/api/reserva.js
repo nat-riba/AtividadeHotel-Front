@@ -3,12 +3,10 @@ import axios from "axios";
 
 export async function getReservas() {
     const response = await axios.get("http://localhost:3000/reservas");
-  
     return response.data;
 }
 
 export async function addReserva(data) {
-
     const response = await axios.post("http://localhost:3000/reservas", data);
     return response.data;
 }

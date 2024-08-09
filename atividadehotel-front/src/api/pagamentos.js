@@ -3,12 +3,10 @@ import axios from "axios";
 
 export async function getPagamentos() {
     const response = await axios.get("http://localhost:3000/pagamentos");
-  
     return response.data;
 }
 
 export async function addPagamento(data) {
-
     const response = await axios.post("http://localhost:3000/pagamentos", data);
     return response.data;
 }
